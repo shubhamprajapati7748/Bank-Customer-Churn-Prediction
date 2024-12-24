@@ -18,6 +18,15 @@ with open("Artifacts/onehot_encoder_geography.pkl", "rb") as file:
 with open('Artifacts/Standard_Scaler.pkl', "rb") as file:
     scaler = pickle.load(file)
 
+
+# Set the page title and other configurations
+st.set_page_config(
+    page_title="Customer Churn Prediction",  # Title of the page
+    page_icon="📊",                        # Optionally set an emoji icon for the tab
+    layout="centered",                     # 'centered' or 'wide'
+    initial_sidebar_state="auto"            # 'auto', 'expanded', or 'collapsed'
+)
+
 # Streamlit app
 st.title("Customer Churn Prediction")
 
