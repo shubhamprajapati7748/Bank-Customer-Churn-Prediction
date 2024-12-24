@@ -1,4 +1,4 @@
-# Bank Customer Churn Prediction Streamlit App
+# Bank Customer Churn Prediction App
 
 ## Table of Contents
 - [About The Project](#about-the-project)
